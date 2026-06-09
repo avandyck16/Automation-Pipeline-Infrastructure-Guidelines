@@ -55,6 +55,7 @@ Las pruebas automatizadas dependían de variables que no estaban disponibles dur
 
 Se implementó la exportación controlada de variables desde Azure DevOps Pipeline Variables hacia Cypress mediante directivas documentadas dentro del YAML.
 
+
 ### Reporting Automatizado
 
 **Problema**
@@ -110,4 +111,15 @@ Las directivas fueron diseñadas para adaptarse a distintas arquitecturas CI/CD,
 | Build Dev → Deploy Dev → Test → Build Prod → Deploy Prod → Test |
 
 Estas alternativas permiten reutilizar la misma base de automatización sin modificaciones significativas en las suites de prueba.
+
+**Screenshots**
+
+<img width="439" height="357" alt="image" src="https://github.com/user-attachments/assets/d8cbc560-6e6f-459d-9b8b-530662d899d9" />
+<img width="439" height="357" alt="image" src="https://github.com/user-attachments/assets/dd8296c5-b3f6-46cd-a941-556570dd9e8a" />
+<img width="439" height="357" alt="image" src="https://github.com/user-attachments/assets/e6fe69a0-2ef9-4107-9f7c-df5963160841" />
+
+
+
+
+
 
